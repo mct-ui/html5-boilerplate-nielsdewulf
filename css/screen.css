@@ -8,7 +8,7 @@ html {
     font-size: 16px;
     line-height: 1.5;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: red;
+    /*color: red;*/
     padding: 24px 24px 0;
 
 }
@@ -81,19 +81,36 @@ blockquote {
     margin: 0 0 24px;
     font-family: "Times New Roman", serif;
 }
+
 blockquote * {
     font-size: inherit;
     line-height: inherit;
 }
-ul,ol{
+
+ul, ol {
     padding-left: 24px;
 }
-li ul, li ol{
+
+li ul, li ol {
     margin-bottom: 0;
 }
-hr{
+
+hr {
     border: 0;
     height: 1px;
     background: LightGrey;
     margin: 0 0 24px;
+}
+
+a {
+    color: RoyalBlue;
+    transition: all .1s ease-in-out;
+}
+
+a:visited a:active {
+    color: BlueViolet;
+}
+
+a:hover, a:focus {
+    color: Crimson;
 }
